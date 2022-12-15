@@ -1,0 +1,17 @@
+create database dbPizzeria;
+use dbPizzeria;
+
+insert into clientes(apellido_cliente, direccion, nombre_cliente, nro_celular)
+values ('Quispe','Lima','guillermo','987654321');
+insert into clientes(apellido_cliente, direccion, nombre_cliente, nro_celular)
+values ('Huarcaya','Lima','Pedro','987654322');
+
+insert into pizzas(descripcion, nombre_pizza)
+values ('rica','Ricolina');
+insert into pizzas(descripcion, nombre_pizza)
+values ('rica2','Ricolina2');
+
+insert into pizzerias(direccion, sede)
+values ('Lima','Surco')
+insert into pizzerias(direccion, sede)
+values ('Lima','La molina')
